@@ -137,6 +137,8 @@ This project is released under the GNU General Public License v3.0. See the LICE
 
     Installer: Calamares
 
-    Desktop: KDE Plasma
+    Desktop: KDE Plasma## 📥 Download
+
+The ISO is hosted on Internet Archive (3.1 GB):https://archive.org/details/orbit-os-1.0-1.0-x86_64
 
     Music visualizer: Cava

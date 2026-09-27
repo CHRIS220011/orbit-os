@@ -25,7 +25,7 @@ ORBIT-OS is a modern, lightweight Linux distribution built from scratch using `a
 
 ### 1. Download the ISO
 
-Grab the latest ISO from the [**Releases**](../../releases) section.
+The ISO is hosted on Internet Archive (3.1 GB): https://archive.org/details/orbit-os-1.0-1.0-x86_64
 
 ### 2. Write it to a USB drive (Ventoy recommended)
 
@@ -104,21 +104,6 @@ bash
 cava
 
 Play any music (e.g. in VLC, Firefox, or Spotify) and Cava will react in real time. Perfect for showing off ORBIT-OS to your friends.
-🛠️ Building from Source
-
-To build your own ORBIT-OS image, you need an Arch Linux environment with the required tools installed.
-bash
-
-# 1. Clone the repository
-git clone https://github.com/CHRIS220011/orbit-os.git
-cd orbit-os
-
-# 2. Install dependencies
-sudo pacman -S --needed archiso
-
-# 3. Build the ISO
-sudo mkarchiso -v -w /tmp/archiso-work -o ./out .
-
 The resulting ISO will be placed in the ./out/ directory.
 📚 Documentation
 
@@ -139,6 +124,5 @@ This project is released under the GNU General Public License v3.0. See the LICE
 
     Desktop: KDE Plasma## 📥 Download
 
-The ISO is hosted on Internet Archive (3.1 GB):https://archive.org/details/orbit-os-1.0-1.0-x86_64
 
     Music visualizer: Cava

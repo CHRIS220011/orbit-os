@@ -1,0 +1,6 @@
+[Compositing]
+Enabled=true
+Backend=OpenGL
+AllowTearing=false
+# ORBIT-OS: Prefer Vulkan when available, fallback to OpenGL automatically
+OpenGLIsUnsafe=false

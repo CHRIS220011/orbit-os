@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Install ORBIT-OS
+Name[pl]=Zainstaluj ORBIT-OS
+Name[de]=ORBIT-OS installieren
+Name[es]=Instalar ORBIT-OS
+Comment=Install ORBIT-OS 1.0 to your hard drive
+Exec=sudo calamares
+Icon=system-software-install
+Terminal=false
+Categories=System;
+StartupNotify=true

@@ -1,0 +1,155 @@
+
+# === Audio ===
+# === Boot ===
+# === Browser ===
+# === Disk / partition tools (minimal) ===
+# === Fonts and theming ===
+# === KDE essential apps ===
+# === KDE Plasma (core only) ===
+# === Live ISO (required) ===
+# === Multimedia ===
+# === Networking ===
+# === Package management GUI ===
+# === System base ===
+# === System tools ===
+# === VM guests ===
+alsa-utils
+amd-ucode
+arch-install-scripts
+archiso
+ark
+avahi
+base
+base-devel
+bash-completion
+bind
+breeze-gtk
+brightnessctl
+btrfs-progs
+calamares
+cava
+cryptsetup
+curl
+discover
+dmidecode
+dolphin
+dolphin-plugins
+dosfstools
+e2fsprogs
+efibootmgr
+exfatprogs
+f2fs-tools
+fastfetch
+ffmpeg
+ffmpegthumbs
+firefox
+flatpak
+flatpak-kcm
+git
+gnupg
+gparted
+gptfdisk
+grub
+gst-libav
+gst-plugins-bad
+gst-plugins-good
+gst-plugins-ugly
+gwenview
+htop
+intel-ucode
+inxi
+iw
+iwd
+kate
+kcalc
+kde-cli-tools
+kdeconnect
+kdegraphics-thumbnailers
+kde-gtk-config
+kfind
+khelpcenter
+kinfocenter
+kio-admin
+kio-extras
+konsole
+kwrite
+less
+lib32-mesa
+lib32-vulkan-icd-loader
+lib32-vulkan-intel
+lib32-vulkan-radeon
+lib32-vulkan-swrast
+linux
+linux-firmware
+linux-headers
+lsb-release
+lvm2
+man-db
+man-pages
+memtest86+
+memtest86+-efi
+mesa
+mkinitcpio
+mkinitcpio-archiso
+mpv
+nano
+networkmanager
+network-manager-applet
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+nss-mdns
+ntfs-3g
+nvme-cli
+okular
+openssh
+openssl
+open-vm-tools
+os-prober
+packagekit-qt6
+pacman-contrib
+papirus-icon-theme
+parted
+pavucontrol
+pciutils
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+plasma-meta
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-workspace
+power-profiles-daemon
+qemu-guest-agent
+reflector
+rsync
+sddm
+sddm-kcm
+smartmontools
+sof-firmware
+spectacle
+sudo
+syslinux
+tmux
+ttf-dejavu
+ttf-firacode-nerd
+ttf-liberation
+usbutils
+vim
+virtualbox-guest-utils-nox
+vlc
+vulkan-icd-loader
+vulkan-intel
+vulkan-radeon
+vulkan-swrast
+vulkan-tools
+wget
+wireless-regdb
+wireplumber
+wpa_supplicant
+xdg-user-dirs
+xdg-utils
+xfsprogs
+zsh

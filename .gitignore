@@ -1,0 +1,23 @@
+# Build output
+out/
+work/
+/tmp/
+*.iso
+
+# Cache
+*.pkg.tar.zst
+*.db
+*.db.tar.gz
+*.files
+*.files.tar.gz
+archiso-tmp/
+
+# Editor
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db

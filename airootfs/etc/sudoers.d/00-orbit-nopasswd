@@ -1,0 +1,3 @@
+# ORBIT-OS live: no password required anywhere
+%wheel ALL=(ALL:ALL) NOPASSWD: ALL
+orbit ALL=(ALL:ALL) NOPASSWD: ALL

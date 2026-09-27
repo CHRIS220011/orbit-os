@@ -42,7 +42,7 @@ We **strongly recommend using [Ventoy](https://www.ventoy.net/)** to write the I
 
 If you prefer the classic approach, you can use `dd`. **Warning:** this will erase the entire USB drive.
 
-```bash
+
 sudo dd if=orbit-os-1.0-1.0-x86_64.iso of=/dev/sdX bs=4M status=progress oflag=sync
 
 Replace /dev/sdX with your USB drive (e.g. /dev/sdb, not /dev/sdb1).
@@ -122,7 +122,7 @@ This project is released under the GNU General Public License v3.0. See the LICE
 
     Installer: Calamares
 
-    Desktop: KDE Plasma## 📥 Download
+    Desktop: KDE Plasma
 
 
     Music visualizer: Cava

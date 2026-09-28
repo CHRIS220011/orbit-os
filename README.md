@@ -11,7 +11,7 @@ ORBIT-OS is a modern, lightweight Linux distribution built from scratch using `a
 - 🎨 **Vulkan-first** – Qt Quick rendered through Vulkan by default, with automatic fallback to OpenGL
 - 🌍 **Unique in the world** – the only distribution shipping Vulkan as the default rendering backend for KDE Plasma
 - 🔄 **Rolling release** – based on Arch Linux, always the freshest packages
-- 💿 **Offline installer** – Calamares copies the system from the live ISO, no internet required
+- 💿 **Offline installer** – Calamares copies the system from the live ISO, no internet required (ANYWAY, I RECOMMEND USING IT FOR PROPER OPERATION!!!!!)
 - ⚙️ **Universal installation** – NVMe, SATA, eMMC, UEFI and BIOS support
 - 🌐 **Global** – multiple languages and time zones, English as default
 - 🎵 **Cava built-in** – terminal music visualizer pre-installed

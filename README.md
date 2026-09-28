@@ -31,6 +31,8 @@ ORBIT-OS is a modern, lightweight Linux distribution built from scratch using `a
 ### 1. Download the ISO
 
 The ISO is hosted on Internet Archive (3.1 GB): https://archive.org/details/orbit-os-1.0-1.0-x86_64
+### WARNING!!!!!!
+WARNING!!! BY DEFAULT, THE LOGIN SCREEN DOES NOT WORK. TO FIX THIS, GO TO SYSTEM SETTINGS, THEN CLICK GLOBAL APPEARANCE, AND THEN LOGIN SCREEN (SDDM), AND THEN CHOOSE WHICHEVER ONE YOU WANT, AND THEN CLICK APPLY. AFTER DOING THIS, RESTART YOUR PC, AND THE LOGIN SCREEN SHOULD WORK CORRECTLY. THIS WILL BE FIXED IN LATER VERSIONS!
 
 ### 2. Write it to a USB drive (Ventoy recommended)
 

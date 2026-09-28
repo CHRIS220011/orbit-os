@@ -19,7 +19,12 @@ ORBIT-OS is a modern, lightweight Linux distribution built from scratch using `a
 
 ## 📸 Screenshots
 
-*(coming soon)*
+<img width="1920" height="1080" alt="1png" src="https://github.com/user-attachments/assets/164267c1-26bd-4b59-8fa7-9cb07891e42a" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/fbd1b21c-c4d5-418d-9ed1-7bc9b058b5fc" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/ed7bad0a-cf7a-436d-b2b3-b5df6f2d2698" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/9bd3c91c-a03b-4dac-bd42-c0bb9586a4da" />
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/b9ea482f-e029-4264-8a1f-2153d1a3a63e" />
+
 
 ## 🚀 Quick Start
 

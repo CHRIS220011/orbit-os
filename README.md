@@ -50,7 +50,7 @@ We **strongly recommend using [Ventoy](https://www.ventoy.net/)** to write the I
 If you prefer the classic approach, you can use `dd`. **Warning:** this will erase the entire USB drive.
 
 
-sudo dd if=orbit-os-1.0-1.0-x86_64.iso of=/dev/sdX bs=4M status=progress oflag=sync
+    sudo dd if=orbit-os-1.0-1.0-x86_64.iso of=/dev/sdX bs=4M status=progress oflag=sync
 
 Replace /dev/sdX with your USB drive (e.g. /dev/sdb, not /dev/sdb1).
 3. Boot and install
@@ -108,7 +108,7 @@ ORBIT-OS ships with Cava pre-installed – a lightweight, beautiful music visual
 To run it, simply open Konsole and type:
 bash
 
-cava
+    cava
 
 Play any music (e.g. in VLC, Firefox, or Spotify) and Cava will react in real time. Perfect for showing off ORBIT-OS to your friends.
 The resulting ISO will be placed in the ./out/ directory.
@@ -123,12 +123,11 @@ Contributions are welcome! Before you start, please read CONTRIBUTING.md, which 
 This project is released under the GNU General Public License v3.0. See the LICENSE file for details.
 🙏 Credits
 Based on Arch Linux 
-    
+
 Built with archiso
 
 Installer: Calamares
-    
-Desktop: KDE Plasma
 
+Desktop: KDE Plasma
 
 Music visualizer: Cava

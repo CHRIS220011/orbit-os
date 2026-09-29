@@ -131,4 +131,4 @@ Installer: Calamares
 Desktop: KDE Plasma
 
 
-    Music visualizer: Cava
+Music visualizer: Cava

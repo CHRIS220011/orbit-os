@@ -28,14 +28,7 @@ ORBIT-OS is a modern, lightweight Linux distribution built from scratch using `a
 
 ## 🚀 Quick Start
 
-### 1. Download the ISO
-
-HOW TO DOWNLOAD ORBIT OS? SO YES, YOU NEED TO GO TO THE https://github.com/CHRIS220011/orbit-os/releases, THEN CHOOSE THE VERSION AND DOWNLOAD IT!
-
-### WARNING!!!!!!
-WARNING!!! BY DEFAULT, THE LOGIN SCREEN DOES NOT WORK. TO FIX THIS, GO TO SYSTEM SETTINGS, THEN CLICK GLOBAL APPEARANCE, AND THEN LOGIN SCREEN (SDDM), AND THEN CHOOSE WHICHEVER ONE YOU WANT, AND THEN CLICK APPLY. AFTER DOING THIS, RESTART YOUR PC, AND THE LOGIN SCREEN SHOULD WORK CORRECTLY. THIS WILL BE FIXED IN LATER VERSIONS!
-
-### 2. Write it to a USB drive (Ventoy recommended)
+### 1. Write it to a USB drive (Ventoy recommended)
 
 We **strongly recommend using [Ventoy](https://www.ventoy.net/)** to write the ISO to a USB drive. Ventoy allows you to copy multiple ISO files to a single USB drive and boot them directly, without reformatting between uses.
 
@@ -110,6 +103,13 @@ To run it, simply open Konsole and type:
 bash
 
     cava
+ ### 2. Download the ISO
+
+ HOW TO DOWNLOAD ORBIT OS? SO YES, YOU NEED TO GO TO THE https://github.com/CHRIS220011/orbit-os/releases, THEN CHOOSE THE VERSION AND DOWNLOAD IT!
+
+ ### WARNING!!!!!!
+ WARNING!!! BY DEFAULT, THE LOGIN SCREEN DOES NOT WORK. TO FIX THIS, GO TO SYSTEM SETTINGS, THEN CLICK GLOBAL APPEARANCE, AND THEN LOGIN SCREEN (SDDM), AND THEN CHOOSE WHICHEVER ONE YOU WANT, AND THEN CLICK  APPLY. AFTER DOING THIS, RESTART YOUR PC, AND THE LOGIN SCREEN SHOULD WORK CORRECTLY. THIS WILL BE FIXED IN LATER VERSIONS!
+
 
 Play any music (e.g. in VLC, Firefox, or Spotify) and Cava will react in real time. Perfect for showing off ORBIT-OS to your friends.
 The resulting ISO will be placed in the ./out/ directory.

@@ -55,51 +55,51 @@ sudo dd if=orbit-os-1.0-1.0-x86_64.iso of=/dev/sdX bs=4M status=progress oflag=s
 Replace /dev/sdX with your USB drive (e.g. /dev/sdb, not /dev/sdb1).
 3. Boot and install
 
-    Boot from the USB drive
+Boot from the USB drive
 
-    Select ORBIT-OS 1.0 (x86_64, UEFI) in the boot menu
+Select ORBIT-OS 1.0 (x86_64, UEFI) in the boot menu
 
-    Wait for the KDE Plasma desktop to load
+Wait for the KDE Plasma desktop to load
 
-    Double-click Install ORBIT-OS on the desktop
+Double-click Install ORBIT-OS on the desktop
 
-    Follow the Calamares installer steps
+Follow the Calamares installer steps
 
 ⚙️ Post-Installation Setup
 
 After installing ORBIT-OS on your hard drive, you need to disable the local orbit-repo repository in pacman.conf. This repository is only used during the ISO build process and will cause pacman errors if left enabled on your installed system.
 How to disable orbit-repo
 
-    Open Dolphin (file manager)
+Open Dolphin (file manager)
 
-    Navigate to /etc/
+Navigate to /etc/
 
-    Right-click on pacman.conf → Open with Kate (you will be asked for your sudo password)
+Right-click on pacman.conf → Open with Kate (you will be asked for your sudo password)
 
-    Find the following lines:
-    ini
+Find the following lines:
+ini
 
     [orbit-repo]
     SigLevel = Optional TrustAll
     Server = file:///home/chris/orbit-repo
 
-    Comment them out by adding # at the beginning of each line:
-    ini
+Comment them out by adding # at the beginning of each line:
+ini
 
     #[orbit-repo]
     #SigLevel = Optional TrustAll
     #Server = file:///home/chris/orbit-repo
 
-    Save the file (Ctrl+S) and close Kate
+Save the file (Ctrl+S) and close Kate
 
 Now pacman will work correctly, using only the official Arch Linux mirrors.
 Optional: Change your timezone and language
 
 ORBIT-OS ships with English and UTC as defaults. To change them:
 
-    Timezone: System Settings → Date & Time
+Timezone: System Settings → Date & Time
 
-    Language: System Settings → Region & Language
+Language: System Settings → Region & Language
 
 🎵 Cava – Terminal Music Visualizer
 
@@ -122,14 +122,13 @@ Contributions are welcome! Before you start, please read CONTRIBUTING.md, which 
 
 This project is released under the GNU General Public License v3.0. See the LICENSE file for details.
 🙏 Credits
+Based on Arch Linux 
+    
+Built with archiso
 
-    Based on Arch Linux
-
-    Built with archiso
-
-    Installer: Calamares
-
-    Desktop: KDE Plasma
+Installer: Calamares
+    
+Desktop: KDE Plasma
 
 
     Music visualizer: Cava

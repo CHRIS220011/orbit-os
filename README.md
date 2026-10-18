@@ -33,7 +33,7 @@ We strongly recommend using Balena Etcher to write the ISO to a USB drive. It is
 
 How to use Balena Etcher:
 
-Download Balena Etcher for your operating system from etcher.balena.io:
+Download Balena Etcher for your operating system from https://etcher.balena.io/
 
 Windows: Download the .exe installer and run it.
 

@@ -26,38 +26,52 @@ ORBIT-OS is a modern, lightweight Linux distribution built from scratch using `a
 <img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/b9ea482f-e029-4264-8a1f-2153d1a3a63e" />
 
 
-## 🚀 Quick Start
+🚀 Quick Start
+1. Write the ISO to a USB drive (Balena Etcher recommended)
 
-### 1. Write it to a USB drive (Ventoy recommended)
+We strongly recommend using Balena Etcher to write the ISO to a USB drive. It is completely free, works on Windows, Linux, and macOS, and automatically verifies the write to ensure your USB drive is not corrupted.
 
-We **strongly recommend using [Ventoy](https://www.ventoy.net/)** to write the ISO to a USB drive. Ventoy allows you to copy multiple ISO files to a single USB drive and boot them directly, without reformatting between uses.
+How to use Balena Etcher:
 
-**How to use Ventoy:**
+Download Balena Etcher for your operating system from etcher.balena.io:
 
-1. Download Ventoy from [ventoy.net](https://www.ventoy.net/en/download.html)
-2. Install Ventoy on your USB drive (one-time setup)
-3. Copy `orbit-os-1.0-1.0-x86_64.iso` directly to the Ventoy partition
-4. Boot from the USB drive – Ventoy will show a menu with all ISOs
+Windows: Download the .exe installer and run it.
 
-**Alternative – `dd` method:**
+Linux: Download the .AppImage file, make it executable (chmod +x balenaEtcher-*.AppImage), and run it. Alternatively, install it via your distribution's package manager.
 
-If you prefer the classic approach, you can use `dd`. **Warning:** this will erase the entire USB drive.
+macOS: Download the .dmg file and drag it to your Applications folder.
+Launch Balena Etcher.
 
+Click “Flash from file” and select the orbit-os-1.0-1.0-x86_64.iso file you downloaded.
+
+Click “Select target” and choose your USB drive. (Etcher automatically hides system drives to prevent accidental selection).
+
+Click “Flash!” and wait for the process to complete. Etcher will automatically verify the write when finished.
+
+Alternative for Linux/macOS – the dd method:
+
+If you are on Linux or macOS and prefer the classic terminal approach, you can use dd. Warning: this will completely erase the entire USB drive.
+
+Open your terminal.
+
+Identify your USB drive using "lsblk" (Linux) or "diskutil list" (macOS).
+
+Run the following command (replace /dev/sdX with your USB drive, e.g., /dev/sdb, not /dev/sdb1):
+bash
 
     sudo dd if=orbit-os-1.0-1.0-x86_64.iso of=/dev/sdX bs=4M status=progress oflag=sync
 
-Replace /dev/sdX with your USB drive (e.g. /dev/sdb, not /dev/sdb1).
-3. Boot and install
+2. Boot and install
 
-Boot from the USB drive
+    Boot from the USB drive (you may need to change the boot order in your BIOS/UEFI settings).
 
-Select ORBIT-OS 1.0 (x86_64, UEFI) in the boot menu
+    Select ORBIT-OS 1.0 (x86_64, UEFI) in the boot menu.
 
-Wait for the KDE Plasma desktop to load
+    Wait for the KDE Plasma desktop to load.
 
-Double-click Install ORBIT-OS on the desktop
+    Double-click Install ORBIT-OS on the desktop.
 
-Follow the Calamares installer steps
+    Follow the Calamares installer steps.
 
 ⚙️ Post-Installation Setup
 
@@ -105,10 +119,10 @@ bash
     cava
  ### 2. Download the ISO
 
- HOW TO DOWNLOAD ORBIT OS? SO YES, YOU NEED TO GO TO THE https://github.com/CHRIS220011/orbit-os/releases, THEN CHOOSE THE VERSION AND DOWNLOAD IT!
+ HOW TO DOWNLOAD ORBIT OS? SO YES, YOU NEED TO GO TO THE https://github.com/CHRIS220011/orbit-os/releases, THEN CHOOSE THE VERSION AND DOWNLOAD IT!,This system is hosted on MEGA.
 
  ### WARNING!!!!!!
- WARNING!!! BY DEFAULT, THE LOGIN SCREEN DOES NOT WORK. TO FIX THIS, GO TO SYSTEM SETTINGS, THEN CLICK GLOBAL APPEARANCE, AND THEN LOGIN SCREEN (SDDM), AND THEN CHOOSE WHICHEVER ONE YOU WANT, AND THEN CLICK  APPLY. AFTER DOING THIS, RESTART YOUR PC, AND THE LOGIN SCREEN SHOULD WORK CORRECTLY. THIS WILL BE FIXED IN LATER VERSIONS!
+In version 1.0,WARNING!!! BY DEFAULT, THE LOGIN SCREEN DOES NOT WORK. TO FIX THIS, GO TO SYSTEM SETTINGS, THEN CLICK GLOBAL APPEARANCE, AND THEN LOGIN SCREEN (SDDM), AND THEN CHOOSE WHICHEVER ONE YOU WANT, AND THEN CLICK  APPLY. AFTER DOING THIS, RESTART YOUR PC, AND THE LOGIN SCREEN SHOULD WORK CORRECTLY. THIS WILL BE FIXED IN LATER VERSIONS!
 
 
 Play any music (e.g. in VLC, Firefox, or Spotify) and Cava will react in real time. Perfect for showing off ORBIT-OS to your friends.
